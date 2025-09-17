@@ -37,7 +37,7 @@ class StudentsController extends Controller
 
                 if ($this->StudentsModel->insert($data)) {
                     set_flash_alert('success', 'Student added successfully.');
-                    return redirect('/get-all');
+                    return redirect('/');
                 } else {
                     set_flash_alert('danger', 'Insert failed. Please try again.');
                 }

@@ -33,7 +33,7 @@
             <input type="email" name="email" class="form-control" required>
         </div>
         <button class="btn btn-primary">Create</button>
-        <a href="<?= site_url('get-all'); ?>" class="btn btn-secondary">Back</a>
+        <a href="<?= site_url(''); ?>" class="btn btn-secondary">Back</a>
     </form>
 </body>
 
