@@ -321,7 +321,7 @@ if ( ! function_exists('database_config'))
 	 *
 	 * @return void
 	 */
-	function database_config()
+	function &database_config()
 	{
 		static $database;
 
